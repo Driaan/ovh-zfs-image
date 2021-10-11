@@ -1,7 +1,7 @@
 variable "livecd_url" {
   type        = string
   description = "Release URL of the livecd iso"
-  default     = "https://cdimage.debian.org/debian-cd/10.8.0-live/amd64/iso-hybrid/debian-live-10.8.0-amd64-standard.iso"
+  default     = "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.1.0-amd64-netinst.iso"
 }
 
 locals {
